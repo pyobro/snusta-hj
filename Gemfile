@@ -9,6 +9,17 @@ gem 'mysql2', '~> 0.4.8'
 gem 'sorcery', '~> 0.11.0'
 gem 'bcrypt'
 
+# bootstrap install
+gem 'bootstrap', '~> 4.0.0.alpha3'
+source 'https://rails-assets.org' do
+gem 'rails-assets-tether', '>= 1.1.0'
+end
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+# use jquery as the JavaScript library
+gem 'jquery-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
 # Use sqlite3 as the database for Active Record
