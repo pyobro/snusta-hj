@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  skip_before_action :require_login, only: [:new, :create]
+  skip_before_action :verify_authenticity_token #postman 테스트시 csef_token 인증제거
+  skip_before_action :require_login, only: [:index, :new, :create]
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
