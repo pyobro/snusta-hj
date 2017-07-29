@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +8,28 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
-  <body class="container">
-    <%= render 'layouts/header' %>
-    <div class="row"></div>
-      <%= yield %>
-  </body>
+<body>
+<%= render 'layouts/header' %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <% flash.each do |name, msg| %>
+          <% if name=='alert'%>
+              <div class="alert alert-danger" role="alert">
+                <%=msg%>
+              </div>
+          <% else %>
+              <div class="alert alert-info" role="alert">
+                <%=msg%>
+              </div>
+          <% end %>
+      <% end %>
+    </div>
+    <div class="col-12">
+    <%= yield %>
+  </div>
+</div>
+</div>
+
+</body>
 </html>
