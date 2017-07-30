@@ -17,6 +17,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :user_name %>
+  </div>
+
+  <div class="field">
     <%= form.label :password %>
     <%= form.password_field :password, id: :user_crypted_password %>
   </div>
