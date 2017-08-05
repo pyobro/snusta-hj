@@ -1,4 +1,4 @@
-<%= form_with(model: user, local: true, class:'form_group') do |form| %>
+<%= form_with(model: user, local: true, class:'form-group') do |form| %>
   <% if user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -11,19 +11,23 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.email_field :email, class: 'form_control', placeholder:"이메일주소" %>
+  <div class="signup-field">
+    <%= form.email_field :email, class: 'form-control', placeholder:"이메일주소" %>
   </div>
 
-  <div class="field">
-    <%= form.text_field :name, class: 'form_control', placeholder:"사용자이름" %>
+  <div class="signup-field">
+    <%= form.text_field :name, class: 'form-control', placeholder:"사용자이름" %>
   </div>
 
-  <div class="field">
-    <%= form.password_field :password, class: 'form_control', placeholder:"비밀번호" %>
+  <div class="signup-field">
+    <%= form.password_field :password, class: 'form-control', placeholder:"비밀번호" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "가입", class: 'btn btn-primary signup-submit'%>
+  </div>
+
+  <div class="signup-text">
+    가입하면 SNUSTA의 약관 및 개인정보 처리 방침에 동의하게 됩니다.
   </div>
 <% end %>

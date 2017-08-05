@@ -1,11 +1,11 @@
 class UserSessionsController < ApplicationController
-  skip_before_action :require_login, except: [:destroy]
+  skip_before_action :require_login, except: [:destroy, :create]
   def new
     @user = User.new
   end
 
   def create
-    if @user = login(params[:email], params[:password])
+    if @user = login(params[:name], params[:password])
       redirect_back_or_to :users, notice: '로그인 성공'
     else
       flash.now[:alert] = '로그인 실패'

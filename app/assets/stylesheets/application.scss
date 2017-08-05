@@ -15,20 +15,73 @@
  */
 
 body {
-  height: 100
+  height: 100%;
+  margin: 0;
+  background-color: #fafafa;
 }
-.snusv{
+
+.snusv {
   background-color: coral;
 }
-#snusv2{
+
+#snusv2 {
   background-color: cornflowerblue;
 }
 
-.field {
-  margin-bottom: 2%;
-  margin-top: 2%
+.signup-field, .signin-field {
+  margin-bottom: 4%;
+  margin-top: 4%
 }
 
-.signup{
-  padding-top:20%;
+.signup {
+  padding-top: 15%;
+  width: 380px;
+  height: 55%;
+}
+
+.signin {
+  padding-top: 25%;
+  width: 380px;
+  height: 50%;
+}
+
+.signup-title {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #999;
+}
+
+.signup-text {
+  font-size: 0.9em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #999;
+}
+
+.signup-submit, .signin-submit {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.frame {
+  height: 100%;
+  width: 100%;
+}
+
+.signup-inner, .signin-inner {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border: #e6e6e6 solid 1px;
+}
+
+.signup-inner-bottom, .signin-inner-bottom{
+  background-color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: #e6e6e6 solid 1px;
 }
