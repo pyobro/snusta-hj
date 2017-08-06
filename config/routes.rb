@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   resources :users
   resources :posts
 
+  resources :profiles, param: :name, only: [:show, :edit, :update]
+
   get 'login' => 'user_sessions#new', as: :login
   delete 'logout' => 'user_sessions#destroy', as: :logout
 
