@@ -11,7 +11,8 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
+ *= require_tree .
+ *= require_self
  */
 
 body {
@@ -84,4 +85,18 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
   border: #e6e6e6 solid 1px;
+}
+
+#error_explanation {
+  text-align: left;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#error_explanation > h2 {
+  font-size: 1rem;
+  font-weight: bold;
 }
