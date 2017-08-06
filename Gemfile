@@ -15,6 +15,8 @@ source 'https://rails-assets.org' do
 gem 'rails-assets-tether', '>= 1.1.0'
 end
 
+gem 'rails-i18n', '~> 5.0', '>= 5.0.4'
+
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 # use jquery as the JavaScript library

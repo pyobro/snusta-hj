@@ -31,11 +31,17 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    @user = User.new(user_params)
+    p = user_params
+    @user = User.new(p)
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        # 회원가입 후에 바로 로그인이 되도록 한다
+        # login(p[:name], p[:password])
+        # format.html { redirect_to users_path}
+
+        # 회원가입 후에 로그인 페이지로 넘어간다
+        format.html { redirect_to login_path, notice: 'User was successfully created. you can login now' }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
@@ -49,7 +55,7 @@ class UsersController < ApplicationController
   def update
     #프로필수정
     respond_to do |format|
-      if @user.update(user_params)
+      if @user.update(p)
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
         format.json { render :show, status: :ok, location: @user }
       else
