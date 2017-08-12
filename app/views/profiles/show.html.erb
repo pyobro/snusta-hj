@@ -3,15 +3,27 @@
   <div class="col-sm-2 col-lg-2 col-md-2 col-xs-2">
     <%=image_tag 'moka2.png', style: 'border-radius:50%;width:100%' %>
   </div>
-  <div class="col-sm-10 col-lg-10 col-md-10 col-xs-10">
-    <p><%=@user.name%>의 강아지 모카</p>
+  <div class="col-sm-8 col-lg-8 col-md-8 col-xs-6 profile-text">
+      <a><%=@user.name%>의 강아지 모카</a>
+      <%= link_to '프로필 편집', edit_user_path(@user), class: "btn btn_default"%>
+    <div class="col-sm-8 col-lg-8 col-md-8 col-xs-6 profile-text">
+    <span class="profile-text">
+      게시물 <%= @user.posts.size %>
+    </span>
+      <span class="profile-text">
+      팔로우 0
+    </span>
+      <span class="profile-text">
+      팔로워 0
+    </span>
+    </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><%=image_tag 'moka.png', style: 'width:100%'%></div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><%=image_tag 'moka.png', style: 'width:100%'%></div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><%=image_tag 'moka.png', style: 'width:100%'%></div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile-grid"><%=image_tag 'moka.png', style: 'width:100%'%></div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile-grid"><%=image_tag 'moka.png', style: 'width:100%'%></div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile-grid"><%=image_tag 'moka.png', style: 'width:100%'%></div>
 </div>
 
 

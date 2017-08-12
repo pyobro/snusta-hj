@@ -21,6 +21,9 @@
     <%= form.text_area :content, id: :post_content %>
   </div>
 
+  <% img_paths = %w(moka.png moka2.png moka3.png moka4.png moka5.png moka6.png)%>
+  <%= form.hidden_field :img_path, value: img_paths[(rand(img_paths.count-1))] %>
+
   <div class="actions">
     <%= form.submit %>
   </div>

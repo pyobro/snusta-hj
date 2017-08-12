@@ -12,6 +12,7 @@
 <body>
 <% if logged_in? %>
     <%= render 'layouts/header' %>
+
 <% else %>
 
 <% end %>
@@ -38,5 +39,11 @@
   </div>
 </div>
 
+<% if logged_in? %>
+    <%= render 'layouts/footer' %>
+
+<% else %>
+
+<% end %>
 </body>
 </html>
