@@ -11,23 +11,23 @@
         </div>
     <% end %>
 
-    <div class="field">
-      <%= form.label :title %>
+    <div class="post-text">
+      <%= form.label :title, style: 'width:100%'  %>
     </div>
 
-    <div>
-      <%= form.text_field :title, id: :post_title %>
+    <div class="post-text-body">
+      <%= form.text_field :title, id: :post_title, style: 'width:100%'  %>
     </div>
 
-    <div class="field">
-      <%= form.label :content %>
+    <div class="post-text">
+      <%= form.label :content, style: 'width:100%'  %>
     </div>
 
-    <div>
-      <%= form.text_area :content, id: :post_content %>
+    <div class="post-text-body">
+      <%= form.text_area :content, id: :post_content, style: 'width:100%' %>
     </div>
 
-    <div class="field">
+    <div class="post-text">
       <%= form.label :img_path %>
     </div>
 
@@ -36,6 +36,6 @@
     </div>
 
     <div class="actions">
-      <%= form.submit %>
+      <%= form.submit "포스팅하기", class: 'btn btn-primary signup-submit'%>
     </div>
 <% end %>
