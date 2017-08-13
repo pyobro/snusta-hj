@@ -17,6 +17,8 @@ end
 
 gem 'rails-i18n', '~> 5.0', '>= 5.0.4'
 
+gem 'carrierwave', '~> 1.0'
+
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 # use jquery as the JavaScript library

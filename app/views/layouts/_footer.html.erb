@@ -1,8 +1,51 @@
+<style>
+  .footer > div > .col {
+    padding-top: 10px;
+  }
+  .footer div > a {
+    color: grey;
+    display: inline-block;
+    height: 100%;
+    width: 100%
+  }
+</style>
+
+
 <div class="footer fixed-bottom text-center">
-  <span>
-    <a href="<%= new_post_path %>">
-      <i class="fa fa-3x fa-camera" aria-hidden="true">
-      </i>
-    </a>
-  </span>
+  <div class="row">
+    <div class="col">
+      <a href="<%= root_path %>">
+        <i class="fa fa-2x fa-home">
+        </i>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="<%=  %>">
+        <i class="fa fa-2x fa-search">
+        </i>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="<%= new_post_path %>">
+        <i class="fa fa-2x fa-camera-retro">
+        </i>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="<%=  %>">
+        <i class="fa fa-2x fa-heart-o">
+        </i>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="<%= profile_path(current_user.name) %>">
+        <i class="fa fa-2x fa-user">
+        </i>
+      </a>
+    </div>
+  </div>
 </div>

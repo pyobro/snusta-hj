@@ -1,30 +1,41 @@
 <%= form_with(model: post, local: true) do |form| %>
-  <% if post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+    <% if post.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
-      <ul>
-      <% post.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+          <ul>
+            <% post.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= form.label :title %>
     </div>
-  <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :post_title %>
-  </div>
+    <div>
+      <%= form.text_field :title, id: :post_title %>
+    </div>
 
-  <div class="field">
-    <%= form.label :content %>
-    <%= form.text_area :content, id: :post_content %>
-  </div>
+    <div class="field">
+      <%= form.label :content %>
+    </div>
 
-  <% img_paths = %w(moka.png moka2.png moka3.png moka4.png moka5.png moka6.png)%>
-  <%= form.hidden_field :img_path, value: img_paths[rand(img_paths.count-1)] %>
+    <div>
+      <%= form.text_area :content, id: :post_content %>
+    </div>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+    <div class="field">
+      <%= form.label :img_path %>
+    </div>
+
+    <div>
+      <%= form.file_field :img_path %>
+    </div>
+
+    <div class="actions">
+      <%= form.submit %>
+    </div>
 <% end %>

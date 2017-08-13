@@ -20,10 +20,12 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile-grid"><%=image_tag 'moka.png', style: 'width:100%'%></div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile-grid"><%=image_tag 'moka.png', style: 'width:100%'%></div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 profile-grid"><%=image_tag 'moka.png', style: 'width:100%'%></div>
+<div class="profile-body">
+  <div class="row">
+    <% @posts.each do |post| %>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 photo-body" style="border:olivedrab sold 1px">
+        <%= image_tag post.img_path.url, style: 'width:100%'%>
+      </div>
+    <% end %>
+  </div>
 </div>
-
-
