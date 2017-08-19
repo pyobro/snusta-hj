@@ -4,8 +4,8 @@
       <div class="card-body">
         <%= image_tag post.img_path,
                       class: 'card-img-top',
-                      style: 'padding:8px; width:100%; height:auto;' %>
-        <div class="card-text" style="padding-left: 8px">
+                      style: 'width:100%; height:auto;' %>
+        <div class="card-text" >
           <%= link_to like_post_path(post.id), method: :put do %>
               <% if post.has_like(current_user) %>
                 <i class="fa fa-heart fa-2x" style="color:red"></i>
@@ -14,9 +14,9 @@
               <% end %>
           <% end %>
         </div>
-        <h4 class="card_body" style="padding: 8px;"><%= post.title %></h4>
-        <p class="card-text" style="padding: 8px;"><%= post.content %></p>
-        <p class="card-text" style="padding: 8px;">
+        <h4 class="card_body"><%= post.title %></h4>
+        <p class="card-text" ><%= post.content %></p>
+        <p class="card-text" >
           <small class="text-muted">
             <%= "#{time_ago_in_words(post.created_at)} 전" %></small>
         </p>

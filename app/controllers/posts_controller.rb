@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   skip_before_action :require_login, only: [:new, :create]
-  before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :set_post, only: [:show, :edit, :update, :destroy, :like]
 
   # GET /posts
   # GET /posts.json
@@ -65,7 +65,8 @@ class PostsController < ApplicationController
   end
 
   def like
-
+    @post.like_toggle(current_user)
+    redirect_back_or_to post_path(@post)
   end
 
   def comment

@@ -7,6 +7,14 @@ class Post < ApplicationRecord
     self.likes.where(user_id: user.id).count != 0
   end
 
+  def like_toggle(user)
+    if has_like(user)
+      Like.where(post: self, user: user).destroy_all
+    else
+      Like.create(post: self, user: user)
+    end
+  end
+
   has_many :comments
 
 end

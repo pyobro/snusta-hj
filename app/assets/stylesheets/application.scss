@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+@import "posts";
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -131,17 +132,4 @@ body {
   vertical-align: middle;
   position: fixed;
   padding-top: 0.5%;
-}
-
-.post-text-body{
-  width: 100%;
-  text-align: center;
-  padding-bottom: 24px;
-
-}
-
-.post-text{
-  width: 100%;
-  text-align: center;
-
 }
