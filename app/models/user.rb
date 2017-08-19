@@ -4,6 +4,8 @@ class User < ApplicationRecord
   mount_uploader :profile_img, ImgUploader
 
   has_many :posts
+  has_many :likes
+  has_many :comments
 
   validates :name, presence: true, uniqueness: true
   validates :email, presence: true, uniqueness: true, format: /@/
