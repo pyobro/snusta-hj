@@ -4,7 +4,12 @@ Rails.application.routes.draw do
 
   resources :user_sessions, only: [:create, :destroy]
   resources :users, except:[:index, :show]
-  resources :posts
+  resources :posts do
+    member do
+      put :like #PUT posts/1/like -> posts_controller def like
+      post :comment #POST posts/1/comment -> posts_controller def comment
+    end
+  end
 
   resources :profiles, param: :name, only: [:show, :edit, :update], constraints: { :name => /[0-z\.]+/ }
 

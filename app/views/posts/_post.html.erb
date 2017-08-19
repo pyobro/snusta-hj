@@ -5,7 +5,16 @@
         <%= image_tag post.img_path,
                       class: 'card-img-top',
                       style: 'padding:8px; width:100%; height:auto;' %>
-        <h4 class="card_body" style="padding: 8px"><%= post.title %></h4>
+        <div class="card-text" style="padding-left: 8px">
+          <%= link_to like_post_path(post.id), method: :put do %>
+              <% if post.has_like(current_user) %>
+                <i class="fa fa-heart fa-2x" style="color:red"></i>
+              <% else %>
+                <i class="fa fa-heart-o fa-2x" style="color:red"></i>
+              <% end %>
+          <% end %>
+        </div>
+        <h4 class="card_body" style="padding: 8px;"><%= post.title %></h4>
         <p class="card-text" style="padding: 8px;"><%= post.content %></p>
         <p class="card-text" style="padding: 8px;">
           <small class="text-muted">
