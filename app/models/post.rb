@@ -17,4 +17,8 @@ class Post < ApplicationRecord
 
   has_many :comments
 
+  def add_comment(user, contents)
+    Comment.create(post: self, user: user, contents: contents)
+  end
+
 end

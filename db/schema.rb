@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170819030530) do
+ActiveRecord::Schema.define(version: 20170820023455) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.bigint "post_id"
     t.bigint "user_id"
+    t.string "contents"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "contents"
     t.index ["post_id"], name: "index_comments_on_post_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
@@ -36,6 +36,13 @@ ActiveRecord::Schema.define(version: 20170819030530) do
     t.string "title", default: ""
     t.text "content"
     t.text "img_path"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "relationships", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.integer "follower_id"
+    t.integer "following_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

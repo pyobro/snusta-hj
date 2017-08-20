@@ -3,7 +3,12 @@ Rails.application.routes.draw do
 
 
   resources :user_sessions, only: [:create, :destroy]
-  resources :users, except:[:index, :show]
+  resources :users do
+    member do
+      put :follow
+    end
+  end
+
   resources :posts do
     member do
       put :like #PUT posts/1/like -> posts_controller def like
