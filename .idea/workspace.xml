@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15790b1d-286c-4e46-9164-ca5b59b41cbd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="$PROJECT_DIR$/config/secrets.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -31,16 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,18 +63,28 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="31">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -142,7 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new u</find>
       <find>new use</find>
       <find>new user</find>
       <find>na</find>
@@ -172,6 +170,7 @@
       <find>margin</find>
       <find>text</find>
       <find>string</find>
+      <find>bcry</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/views/posts</dir>
@@ -203,7 +202,6 @@
         <option value="$PROJECT_DIR$/app/controllers/user_sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
@@ -238,6 +236,7 @@
         <option value="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -339,7 +338,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="config/s&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/secrets.yml&#10;database&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/database.yml&#10;databae.yml&#9;null&#9;null&#10;proficon&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/profiles_controller.rb&#10;sc&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/db/schema.rb&#10;posthtm&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/_post.html.erb&#10;show&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/profiles/show.html.erb&#10;post con&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;post contr&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;rela&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;user.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;index&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/index.html.erb&#10;posts&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;user&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;follow_to&#9;null&#9;null&#10;users_cont&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;rout&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;users&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;relation&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;post&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/post.rb&#10;rou&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;route&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;footer&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/layouts/_footer.html.erb&#10;users_controller&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;model.name&#9;null&#9;null&#10;img_upl&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/img_uploader.rb&#10;form&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/users/_form.html.erb&#10;addprofile&#9;null&#9;null&#10;image_tag&#9;null&#9;null&#10;post.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;profile-te&#9;null&#9;null&#10;rootpath&#9;null&#9;null&#10;root_path&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="gemfile&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/Gemfile&#10;config/s&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/secrets.yml&#10;database&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/database.yml&#10;databae.yml&#9;null&#9;null&#10;proficon&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/profiles_controller.rb&#10;sc&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/db/schema.rb&#10;posthtm&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/_post.html.erb&#10;show&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/profiles/show.html.erb&#10;post con&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;post contr&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;rela&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;user.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;index&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/index.html.erb&#10;posts&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;user&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;follow_to&#9;null&#9;null&#10;users_cont&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;rout&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;users&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;relation&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;post&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/post.rb&#10;rou&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;route&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;footer&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/layouts/_footer.html.erb&#10;users_controller&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;model.name&#9;null&#9;null&#10;img_upl&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/img_uploader.rb&#10;form&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/users/_form.html.erb&#10;addprofile&#9;null&#9;null&#10;image_tag&#9;null&#9;null&#10;post.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;profile-te&#9;null&#9;null&#10;rootpath&#9;null&#9;null&#10;root_path&#9;null&#9;null" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
   </component>
   <component name="RecentsManager">
@@ -801,7 +800,7 @@
       <workItem from="1502694734595" duration="2098000" />
       <workItem from="1503106603484" duration="8526000" />
       <workItem from="1503193391607" duration="8855000" />
-      <workItem from="1503710955150" duration="6351000" />
+      <workItem from="1503710955150" duration="6725000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1501906337170</created>
@@ -964,11 +963,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503716598513</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="deploy ready2">
+      <created>1503718658758</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503718658758</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88683000" />
+    <option name="totallyTimeSpent" value="89057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
@@ -1025,7 +1031,8 @@
     <MESSAGE value="comment like done" />
     <MESSAGE value="db drop and migrate again" />
     <MESSAGE value="deploy ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy ready" />
+    <MESSAGE value="deploy ready2" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy ready2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,13 +1041,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/generators/rails/scaffold/templates/scaffold.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1415,16 +1415,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="31">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@ end
 
 gem 'mysql2', '~> 0.4.8'
 gem 'sorcery', '~> 0.11.0'
-gem 'bcrypt'
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
 # bootstrap install
 gem 'bootstrap', '~> 4.0.0.alpha3'
