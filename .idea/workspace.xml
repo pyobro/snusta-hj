@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15790b1d-286c-4e46-9164-ca5b59b41cbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20170826025256_add_imgpath_to_post.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="$PROJECT_DIR$/config/secrets.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,28 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_post.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,11 +61,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profiles_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profiles_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -190,7 +189,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20170730013854_add_name_to_user.rb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/log/development.log" />
@@ -238,6 +236,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20170826025256_add_imgpath_to_post.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/controllers/profiles_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/secrets.yml" />
       </list>
     </option>
   </component>
@@ -339,7 +339,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="proficon&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/profiles_controller.rb&#10;sc&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/db/schema.rb&#10;posthtm&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/_post.html.erb&#10;show&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/profiles/show.html.erb&#10;post con&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;post contr&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;rela&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;user.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;index&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/index.html.erb&#10;posts&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;user&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;follow_to&#9;null&#9;null&#10;users_cont&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;rout&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;users&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;relation&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;post&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/post.rb&#10;rou&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;route&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;footer&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/layouts/_footer.html.erb&#10;users_controller&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;model.name&#9;null&#9;null&#10;img_upl&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/img_uploader.rb&#10;form&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/users/_form.html.erb&#10;addprofile&#9;null&#9;null&#10;image_tag&#9;null&#9;null&#10;post.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;profile-te&#9;null&#9;null&#10;rootpath&#9;null&#9;null&#10;root_path&#9;null&#9;null&#10;database&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="config/s&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/secrets.yml&#10;database&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/database.yml&#10;databae.yml&#9;null&#9;null&#10;proficon&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/profiles_controller.rb&#10;sc&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/db/schema.rb&#10;posthtm&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/_post.html.erb&#10;show&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/profiles/show.html.erb&#10;post con&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;post contr&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;rela&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;user.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;index&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/posts/index.html.erb&#10;posts&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;user&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/user.rb&#10;follow_to&#9;null&#9;null&#10;users_cont&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;rout&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;users&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;relation&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/relationship.rb&#10;post&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/post.rb&#10;rou&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;route&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/config/routes.rb&#10;footer&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/layouts/_footer.html.erb&#10;users_controller&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/users_controller.rb&#10;model.name&#9;null&#9;null&#10;img_upl&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/models/img_uploader.rb&#10;form&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/views/users/_form.html.erb&#10;addprofile&#9;null&#9;null&#10;image_tag&#9;null&#9;null&#10;post.rb&#9;FILE&#9;file:///Users/grace/Documents/development/snusta_hj/app/controllers/posts_controller.rb&#10;profile-te&#9;null&#9;null&#10;rootpath&#9;null&#9;null&#10;root_path&#9;null&#9;null" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
   </component>
   <component name="RecentsManager">
@@ -801,7 +801,7 @@
       <workItem from="1502694734595" duration="2098000" />
       <workItem from="1503106603484" duration="8526000" />
       <workItem from="1503193391607" duration="8855000" />
-      <workItem from="1503710955150" duration="5554000" />
+      <workItem from="1503710955150" duration="6351000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1501906337170</created>
@@ -957,11 +957,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503716143925</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="deploy ready">
+      <created>1503716598513</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1503716598513</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87886000" />
+    <option name="totallyTimeSpent" value="88683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
@@ -1017,7 +1024,8 @@
     <MESSAGE value="팔로우 / 홈 화면 일부 완성" />
     <MESSAGE value="comment like done" />
     <MESSAGE value="db drop and migrate again" />
-    <option name="LAST_COMMIT_MESSAGE" value="db drop and migrate again" />
+    <MESSAGE value="deploy ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,20 +1034,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/actionpack-5.1.2/lib/action_controller/metal/redirecting.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1413,8 +1407,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/profiles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
