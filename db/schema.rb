@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170820023455) do
+ActiveRecord::Schema.define(version: 20170826025256) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.bigint "post_id"
     t.bigint "user_id"
-    t.string "contents"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "contents"
     t.index ["post_id"], name: "index_comments_on_post_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20170820023455) do
 
   create_table "posts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer "user_id"
-    t.string "title", default: ""
+    t.string "title"
     t.text "content"
     t.text "img_path"
     t.datetime "created_at", null: false
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 20170820023455) do
   end
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string "email", null: false
+    t.string "email", limit: 191, null: false
     t.string "name"
     t.text "profile_img"
     t.string "crypted_password"
